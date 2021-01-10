@@ -19,10 +19,10 @@
             <nav class="main-navigation">
                 <ul>
                 <li><a href="<?php echo site_url('/about-us') ?>">ABOUT US</a></li>
-                <li><a href<?php echo site_url('/blogs') ?>">BLOGS</a></li>
+                <li><a href="<?php echo site_url('/blogs') ?>">BLOGS</a></li>
                 <li><a href="<?php echo site_url('/pages') ?>">PAGES</a></li>
                 <li><a href="<?php echo site_url('/contact-us') ?>">CONTACT US</a></li>
-                <li><a href="<?php echo site_url('/projects') ?>>PROJECTS</a></li>
+                <li><a href="<?php echo site_url('/projects') ?>"">PROJECTS</a></li>
                 </ul>
             </nav>
         <div class="site-header__util">

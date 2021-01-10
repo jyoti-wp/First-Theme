@@ -6,7 +6,7 @@
         <div class="group">
             <div class="site-footer__col-one">
                 <h1 class="school-logo-text school-logo-text--alt-color">
-                    <a href="#"><strong>POWER UP</strong>THEME </a>
+                    <a href="<?php echo site_url(); ?>"><strong>POWER UP</strong>THEME </a>
                 </h1>
                 <p>
                     <a class="site-footer__link" href="#">555.555.5555</a>
@@ -28,9 +28,9 @@
                     <h3 class="headline headline--small">Learn</h3>
                     <nav class="nav-list">
                     <ul>
-                        <li><a href="#">Legal</a></li>
+                        <li><a href="<?php echo site_url('/legal'); ?>">Legal</a></li>
                         <li><a href="<?php echo site_url('/privacy-policy') ?>">Privacy</a></li>
-                        <li><a href="#">Careers</a></li>
+                        <li><a href="<?php echo site_url('/career'); ?>">Careers</a></li>
                     </ul>
                     </nav>
                 </div>
