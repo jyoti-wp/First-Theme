@@ -11,5 +11,6 @@
 
     function powerup_features() {
         add_theme_support('title-tag');
+        register_nav_menu('headerMenuLocation', 'Header Menu Location');
     }
     add_action('after_setup_theme', 'powerup_features');
