@@ -17,19 +17,12 @@
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
             <nav class="main-navigation">
-
-            <?php 
-                wp_nav_menu(array(
-                    'theme_location' => 'headerMenuLocation '
-                ));
-            ?>
-                <!-- <ul>
-                    <li><a href="<?php echo site_url('/about-us') ?>">ABOUT US</a></li>
-                    <li><a href="<?php echo site_url('/blogs') ?>">BLOGS</a></li>
-                    <li><a href="<?php echo site_url('/pages') ?>">PAGES</a></li>
-                    <li><a href="<?php echo site_url('/contact-us') ?>">CONTACT US</a></li>
-                    <li><a href="<?php echo site_url('/projects') ?>"">PROJECTS</a></li>
-                </ul> -->
+            <ul>
+                <li><a href="<?php echo site_url('/about us') ?>">About Us</a></li>
+                <li><a href="<?php echo site_url('/all Blogs') ?>">Blogs</a></li>
+                <li><a href="<?php echo site_url('/Pages') ?>">Pages</a></li>
+                <li><a href="<?php echo site_url('/Contact Us') ?>">Contact Us</a></li>
+            </ul>
             </nav>
         <div class="site-header__util">
             <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
