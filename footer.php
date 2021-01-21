@@ -16,24 +16,29 @@
                 <div class="site-footer__col-two">
                     <h3 class="headline headline--small">Explore</h3>
                     <nav class="nav-list">
-
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">pages</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="<?php echo site_url('/about us') ?>">About Us</a></li>
+                            <li><a href="<?php echo site_url('/all Blogs') ?>">Blogs</a></li>
+                            <li><a href="<?php echo site_url('/Pages') ?>">Pages</a></li>
+                            <li><a href="<?php echo site_url('/Contact Us') ?>">Contact Us</a></li>
+                        </ul>
                     </nav>
                 </div>
                 <div class="site-footer__col-three">
                     <h3 class="headline headline--small">Learn</h3>
                     <nav class="nav-list">
 
-                    <?php 
+                    <!-- <?php 
                         wp_nav_menu(array(
                             'theme_location' => 'footerLocationTwo'
                         ));
-                    ?>
+                    ?> -->
+
+                        <ul>
+                            <li><a href="<?php echo site_url('/about us'); ?>">About Us</a></li>
+                            <li><a href="<?php echo site_url('/privacy policy') ?>">Privacy Policy</a></li>
+                            <li><a href="<?php echo site_url('/cookies') ?>">Cookies</a></li>
+                        </ul>       
 
                     </nav>
                 </div>
