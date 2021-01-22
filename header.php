@@ -19,7 +19,7 @@
             <nav class="main-navigation">
             <ul>
                 <li><a href="<?php echo site_url('/about us') ?>">About Us</a></li>
-                <li><a href="<?php echo site_url('/all Blogs') ?>">Blogs</a></li>
+                <li><a href="<?php echo site_url('/Blog') ?>">Blogs</a></li>
                 <li><a href="<?php echo site_url('/Pages') ?>">Pages</a></li>
                 <li><a href="<?php echo site_url('/Contact Us') ?>">Contact Us</a></li>
             </ul>
