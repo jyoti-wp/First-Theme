@@ -18,10 +18,10 @@
         <div class="site-header__menu group">
             <nav class="main-navigation">
             <ul>
-                <li><a href="<?php echo site_url('/about us') ?>">About Us</a></li>
+                <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                 <li <?php if (get_post_type() == 'post') echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/Blog') ?>">Blogs</a></li>
-                <li><a href="<?php echo site_url('/Pages') ?>">Pages</a></li>
-                <li><a href="<?php echo site_url('/Contact Us') ?>">Contact Us</a></li>
+                <li><a href="<?php echo site_url('/pages') ?>">Pages</a></li>
+                <li><a href="<?php echo site_url('/contact-us') ?>">Contact Us</a></li>
             </ul>
             </nav>
         <div class="site-header__util">
