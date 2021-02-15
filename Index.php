@@ -5,7 +5,6 @@
     <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large">Welcome to our Blog Section</h1>
         <h2 class="headline headline--medium">Again some Dummy text here.</h2>
-        <a href="#" class="btn btn--large btn--blue">Find Your Interests  </a>
     </div>
   </div>
 
